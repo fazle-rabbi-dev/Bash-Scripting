@@ -23,7 +23,7 @@
 
 ## ⚡ Usages Of Bash :
 
-> *It is used by the System Administrators, Network Engineers, Developers, Scientists, and everyone who use Linux/Unix operating system. They use Bash for system administration, data crunching, web application deployment, automated backups, creating custom scripts for various pages, etc.*
+   *It is used by the System Administrators, Network Engineers, Developers, Scientists, and everyone who use Linux/Unix operating system. They use Bash for system administration, data crunching, web application deployment, automated backups, creating custom scripts for various pages, etc.*
 
 ### ⛈️ Topics To Learn In Bash:
 * [Variables](#)
