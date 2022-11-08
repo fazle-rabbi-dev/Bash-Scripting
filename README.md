@@ -1,90 +1,115 @@
 <img src="bash.png" alt="" />
 
+<p id="top"></>
+
+# [Introductions:](#top)
+
 <details>
-<summary>Introduction</summary>
+<summary>Click Me For Collapse...</summary>
 
-### What is bash?
-### What is shell?
-### What is script?
+### 🤔 What is Bash?
+> In basic terms, Bash is a command line interpreter that typically runs in a text window where user can interpret commands to carry out various actions. The combination of these commands as a series within a file is known as a Shell Script. Bash can read and execute the commands from a Shell Script.
 
+### 🤔 What is Shell?
+> Bash scripting is a subset of shell scripting. Shell scripting is a method to automate tasks as a collection of commands. The bash script is one form of shell script. Shells may be one of Korn, C shell, Bourne, Bash, etc
+
+### 🤔 What is Script?
+> In computer programming, a script is a program or sequence of instructions that is interpreted or carried out by another program rather than by the computer processor (as a compiled program is).
+
+> A script is sometimes used to mean a list of operating system commands that are prestored in a file and performed sequentially by the operating system's command interpreter whenever the list name is entered as a single command.
 
 </details>
 
 
-### ⚡ Usages Of Bash Scripting :
+## ⚡ Usages Of Bash :
 
+> ***It is used by the System Administrators, Network Engineers, Developers, Scientists, and everyone who use Linux/Unix operating system. They use Bash for system administration, data crunching, web application deployment, automated backups, creating custom scripts for various pages, etc.***
 
 ### 🚨 Topics To Learn In Bash:
-#### `Fundamemtals:`
 * [Variables](#)
-* [Utilities](#)
 * [Operators](#)
 * [User input](#)
 * [Dates](#)
-* [Conditional Statements](#)
-* [Loops](#)
+* `Conditional Statements`
+   * [If,else,else if]()
+   * [Case]()
+* `Loops`
+   * [For]()
+   * [While]()
+   * [Untill]()
 * [Functions](#)
 * [Arrays](#)
 * [Strings](#)
+* `Miscellaneous`
+   * [Comments]()
+   * [Sleep]()
+   * [Read File]()
+   * [Write File]()
+   * [File/Folder Exists or Not]()
 
-#### `Advanced:`
-* [Api Calling](#)
-* [cURL](#)
-* [](#)
-* 
-
-<div align="center">
 
 ---
 
-Fundamemtals
-
----
-
-</div>
-
-
-## **Variables**
+## Variables
 ```sh
 a=10
 b=20
 ```
 
-## **Strings**
-
+## Operators:
 ```sh
-a='Hello'
-b='Javatpoint'
++,-,*,/,%,[** --> # Power]
++=,-=,*=,/=,%=
 
-result=$a = $b  #   
-result=$a != $b #
-result=$a \< $b #
-result=$a \> $b #
-result= -n $str # Zero or greter then Zero
-result= -z $str # Zero or Not Zero
+#!/bin/bash  
+
+# Performing Arithmetic Operations in Bash:
+name="Fazle Rabbi"
+age=20
+echo $name
+echo "$name"
+# With Dolar Sign (1):
+sum=$((a+b))
+echo $sum
+
+a=30
+b=40
+# Without Dolar Sign (2):
+((sum=a+b))
+echo $sum
+
+# Changing Value:
+((a+=10))
+echo $a
+
+# Changing Value Using Let (3):
+let "a=$((a+100))"
+echo $a
+
+# Using Backticks (4):
+x=99
+y=1
+sum=`expr $x + $y`
+echo $sum
 
 ```
-
-* ***Length Of Strings:***
+## User Input:
 ```sh
-str="Hello"  
-a=${#str}
-b=`expr length "$str"`
-echo "$a"
-echo "$b"
-```
 
-* ***Split A Strings:***
+```
+## Dates:
 ```sh
-str="Hello"  
-a=${#str}
-b=`expr length "$str"`
-echo "$a"
-echo "$b"
+
 ```
+## Conditional Statements:
+```sh
 
+```
+## Loops:
+```sh
 
-## -:- **Functions**
+```
+## Functions
 ```sh
 #!/bin/bash  
 
@@ -106,6 +131,9 @@ echo $?
 ```
 
 ## Arrays:
+<details>
+<summary>View Code</summary>
+
 ```sh
 #!/bin/bash  
 
@@ -201,4 +229,44 @@ for i in "${!SLICED_ARRAY[@]}"
 do
 echo "${i} : ${SLICED_ARRAY[i]}"
 done
+```
+
+</details>
+
+## Strings
+
+```sh
+a='Hello'
+b='Javatpoint'
+
+result=$a = $b  #   
+result=$a != $b #
+result=$a \< $b #
+result=$a \> $b #
+result= -n $str # Zero or greter then Zero
+result= -z $str # Zero or Not Zero
+
+```
+
+* ***Length Of Strings:***
+```sh
+str="Hello"  
+a=${#str}
+b=`expr length "$str"`
+echo "$a"
+echo "$b"
+```
+
+* ***Split A Strings:***
+```sh
+str="Hello"  
+a=${#str}
+b=`expr length "$str"`
+echo "$a"
+echo "$b"
+```
+
+## Miscellaneous:
+```sh
+
 ```
