@@ -1,4 +1,5 @@
-<img src="bash.png" alt="" />
+![20221108_112906](https://user-images.githubusercontent.com/71178740/200482714-87f3fc9e-fead-45d0-99a5-e6d829cdd45d.jpg)
+
 
 <p id="top"></>
 
