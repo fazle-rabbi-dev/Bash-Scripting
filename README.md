@@ -26,15 +26,15 @@
 </details>
 
 
-### ⚡ Usages Of Bash :
+### 📌 Usages Of Bash :
 
-> *It is used by the System Administrators, Network Engineers, Developers, Scientists, and everyone who use Linux/Unix operating system. They use Bash for system administration, data crunching, web application deployment, automated backups, creating custom scripts for various pages, etc.*
+*It is used by the System Administrators, Network Engineers, Developers, Scientists, and everyone who use Linux/Unix operating system. They use Bash for system administration, data crunching, web application deployment, automated backups, creating custom scripts for various pages, etc.*
 
-* ## [Bash Basic Commands](core/bashcommand.md)
+* ## [Bash Commands](core/bashcommand.md)
 
 <p id="Top"></>
 
-## ⛈ Topics To Learn In Bash Scripting
+### ⛈ Topics To Learn In Bash Scripting
 * [Variables](#Variables)
 * [Operators](#Operators)
 * [User input](#User)
@@ -67,9 +67,7 @@ c='hello'
 d=a+b
 ```
 
-<a href="#Top">↑⟰ Back To Top</a>
-
-<p id="Operators"></>
+<a href="#Top">↑ Back To Top</a>
 
 <p id="Operators"></>
 
@@ -113,6 +111,8 @@ echo $sum
 
 <p id="Uinput"></>
 
+<a href="#Top">↑ Back To Top</a>
+
 <p id="User"></>
 
 ## User Input:
@@ -148,6 +148,8 @@ echo "${names[0]}"
 
 <p id="Dates"></>
 
+<a href="#Top">↑ Back To Top</a>
+
 <p id="Dates"></>
 
 ## Dates:
@@ -160,6 +162,8 @@ echo $d
 ```
 
 <p id="Conditional"></>
+
+<a href="#Top">↑ Back To Top</a>
 
 <p id="Conditional"></>
 
@@ -247,6 +251,8 @@ esac
 
 <p id="Loops"></>
 
+<a href="#Top">↑ Back To Top</a>
+
 <p id="Loops"></>
 
 ## Loops:
@@ -330,6 +336,8 @@ done
 
 <p id="Functions"></>
 
+<a href="#Top">↑ Back To Top</a>
+
 <p id="Function"></>
 
 ## Function
@@ -354,6 +362,8 @@ echo $?
 ```
 
 <p id="Arrays"></>
+
+<a href="#Top">↑ Back To Top</a>
 
 <p id="Arrays"></>
 
@@ -462,6 +472,8 @@ done
 
 <p id="Strings"></>
 
+<a href="#Top">↑ Back To Top</a>
+
 <p id="Strings"></>
 
 ## Strings
@@ -499,9 +511,13 @@ echo "$b"
 
 <p id="top"></>
 
+<a href="#Top">↑ Back To Top</a>
+
 <p id="Miscellaneous"></>
 
 ## Miscellaneous:
 ```sh
 
 ```
+
+<a href="#Top">↑ Back To Top</a>
