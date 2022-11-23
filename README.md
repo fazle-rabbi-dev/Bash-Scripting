@@ -30,41 +30,46 @@
 
 > *It is used by the System Administrators, Network Engineers, Developers, Scientists, and everyone who use Linux/Unix operating system. They use Bash for system administration, data crunching, web application deployment, automated backups, creating custom scripts for various pages, etc.*
 
-* ## [Bash Basic Commands]()
+* ## [Bash Basic Commands](core/bashcommand.md)
 
-## ⛈️ Topics To Learn In Bash
-### `Core Topics`
-* [Variables](#)
-* [Operators](#)
-* [User input](#)
-* [Dates](#)
+<p id="Top"></>
+
+## ⛈ Topics To Learn In Bash Scripting
+* [Variables](#Variables)
+* [Operators](#Operators)
+* [User input](#User)
+* [Dates](#Dates)
 * `Conditional Statements`
-   * [If,else,else if]()
-   * [Case]()
+   * [If,else,else if](#Conditional)
+   * [Case](#Conditional)
 * `Loops`
-   * [For]()
-   * [While]()
-   * [Untill]()
-* [Functions](#)
-* [Arrays](#)
-* [Strings](#)
+   * [For](#Loops)
+   * [While](#Loops)
+   * [Untill](#Loops)
+* [Function](#Function)
+* [Arrays](#Arrays)
+* [Strings](#Strings)
 * `Miscellaneous`
-   * [Comments]()
-   * [Sleep]()
-   * [Read File]()
-   * [Write File]()
-   * [File/Folder Exists or Not]()
-
-### `Advanced Topics`
+   * [Comments](#Comments)
+   * [Sleep](#Sleep)
+   * [Read File](#Read)
+   * [Write File](#Write)
+   * [File/Folder Exists or Not](#File)
 
 ---
 <p id="Variables"></>
 
-## Variables
+## Variables:
 ```sh
 a=10
 b=20
+c='hello'
+d=a+b
 ```
+
+<a href="#Top">↑⟰ Back To Top</a>
+
+<p id="Operators"></>
 
 <p id="Operators"></>
 
@@ -108,6 +113,8 @@ echo $sum
 
 <p id="Uinput"></>
 
+<p id="User"></>
+
 ## User Input:
 ```sh
 #!/bin/bash
@@ -141,6 +148,8 @@ echo "${names[0]}"
 
 <p id="Dates"></>
 
+<p id="Dates"></>
+
 ## Dates:
 * [Details Info](https://www.javatpoint.com/bash-date-format)
 ```sh
@@ -149,6 +158,8 @@ echo "${names[0]}"
 d=`date +%m-%d-%Y`  
 echo $d
 ```
+
+<p id="Conditional"></>
 
 <p id="Conditional"></>
 
@@ -236,6 +247,8 @@ esac
 
 <p id="Loops"></>
 
+<p id="Loops"></>
+
 ## Loops:
 ```sh
 #!/bin/bash
@@ -317,7 +330,9 @@ done
 
 <p id="Functions"></>
 
-## Functions
+<p id="Function"></>
+
+## Function
 ```sh
 #!/bin/bash  
 
@@ -337,6 +352,8 @@ echo "$rem"
 echo $?
 
 ```
+
+<p id="Arrays"></>
 
 <p id="Arrays"></>
 
@@ -445,6 +462,8 @@ done
 
 <p id="Strings"></>
 
+<p id="Strings"></>
+
 ## Strings
 
 ```sh
@@ -479,6 +498,8 @@ echo "$b"
 ```
 
 <p id="top"></>
+
+<p id="Miscellaneous"></>
 
 ## Miscellaneous:
 ```sh
