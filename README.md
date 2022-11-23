@@ -3,12 +3,12 @@
 
 <p id="top"></>
 
-## 🚨 Introductions:
+## Introductions
 
 * [All About Of Shell/Bash/Shell Scripting/Bash Scripting](https://www.datacamp.com/blog/what-is-shell)
 
 <details>
-<summary>BASIC INTRO...</summary>
+<summary>BASIC INTRO</summary>
 
 ### 🤔 What is Shell & Shell Scripting?
 > A shell is a type of computer program called a command-line interpreter that lets Linux and Unix users control their operating systems with command-line interfaces. Shells allow users to communicate efficiently and directly with their operating systems. 
@@ -26,7 +26,7 @@
 </details>
 
 
-### 📌 Usages Of Bash :
+### Usages Of Bash
 
 *It is used by the System Administrators, Network Engineers, Developers, Scientists, and everyone who use Linux/Unix operating system. They use Bash for system administration, data crunching, web application deployment, automated backups, creating custom scripts for various pages, etc.*
 
@@ -34,7 +34,7 @@
 
 <p id="Top"></>
 
-### ⛈ Topics To Learn In Bash Scripting
+### Topics To Learn In Bash Scripting
 * [Variables](#Variables)
 * [Operators](#Operators)
 * [User input](#User)
